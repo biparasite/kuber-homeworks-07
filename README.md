@@ -26,7 +26,7 @@
 
 ### Ответ
 
-Из-за ограниченности ресурсов будет 1 master и 3 worker ноду, устанавиливался черезе [kubeadm](https://kubernetes.io/docs/reference/setup-tools/kubeadm/ "kubeadm") . В качестве CNI плагина использовался [cilium](https://cilium.io "cilium") с маршрутизацией BGP. В качестве SC - [Linstor](https://piraeus.io "Linstor") .
+Из-за ограниченности ресурсов будет 1 master и 3 worker нод, устанавиливался черезе [kubeadm](https://kubernetes.io/docs/reference/setup-tools/kubeadm/ "kubeadm") . В качестве CNI плагина использовался [cilium](https://cilium.io "cilium") с маршрутизацией BGP. В качестве SC - [Linstor](https://piraeus.io "Linstor") .
 
 <details> <summary>kubectl get node</summary>
 
